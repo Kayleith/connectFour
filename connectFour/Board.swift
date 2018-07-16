@@ -19,11 +19,6 @@ struct Board<T> {
         board = Array<T?>(repeating: nil, count: rows*columns)
     }
     
-    func getSpace(column: Int, row: Int) -> T? {
-        return board[row*columns + column];
-    }
-    
-    func setSpace(column: Int, row: Int) -> T? {
-        
+    subscript(column: Int, row: Int) -> T? {
     }
 }
