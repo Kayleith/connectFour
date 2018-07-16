@@ -12,4 +12,10 @@ struct Board<T> {
     let columns: Int;
     let rows: Int;
     private var board: Array<T?>;
+    
+    init(columns: Int, rows: Int) {
+        self.columns = columns
+        self.rows = rows
+        array = Array<T?>(count: rows*columns, repeatedValue: nil)
+    }
 }
