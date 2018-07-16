@@ -20,5 +20,11 @@ struct Board<T> {
     }
     
     subscript(column: Int, row: Int) -> T? {
+        get {
+            
+        }
+        set {
+            
+        }
     }
 }
