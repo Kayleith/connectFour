@@ -7,3 +7,6 @@
 //
 
 import Foundation
+
+struct Board<T> {
+}
