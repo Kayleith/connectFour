@@ -9,4 +9,7 @@
 import Foundation
 
 struct Board<T> {
+    let columns: Int;
+    let rows: Int;
+    private var board: Array<T?>;
 }
