@@ -18,4 +18,10 @@ struct Board<T> {
         self.rows = rows
         board = Array<T?>(repeating: nil, count: rows*columns)
     }
+    
+    func getSpace(column: Int, row: Int) -> T? {
+        return board[row*columns + column];
+    }
+    
+    
 }
