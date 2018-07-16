@@ -21,10 +21,10 @@ struct Board<T> {
     
     subscript(column: Int, row: Int) -> T? {
         get {
-            
+            return board[row*columns + column];
         }
         set {
-            
+            board[row*columns + column] = newValue;
         }
     }
 }
