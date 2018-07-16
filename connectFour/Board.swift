@@ -16,6 +16,6 @@ struct Board<T> {
     init(columns: Int, rows: Int) {
         self.columns = columns
         self.rows = rows
-        array = Array<T?>(count: rows*columns, repeatedValue: nil)
+        board = Array<T?>(count: rows*columns, repeatedValue: nil)
     }
 }
