@@ -23,5 +23,7 @@ struct Board<T> {
         return board[row*columns + column];
     }
     
-    
+    func setSpace(column: Int, row: Int) -> T? {
+        
+    }
 }
